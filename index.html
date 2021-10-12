@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>A2Z Snappers</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href=""><img src="img/logo.jpg" alt="camera" /></a>
+      </div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">about</a>
+        <a href="#">services</a>
+        <a href="#">contact</a>
+      </div>
+    </nav>
+    <main>
+      <section class="section-hero">
+        <div class="brand-name">
+          <h1>A2Z Snappers</h1>
+          <h1>-Wedding Photography</h1>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="content-image">
+          <img src="img/content-img.jpg" alt="content-image" />
+        </div>
+        <div class="content-text">
+          <h1 class="cotent-heading">About Me</h1>
+          <p class="content-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s,
+          </p>
+          <button class="btn-book_session">Book a session ></button>
+        </div>
+      </section>
+
+      <section class="section-images">
+        <button class="btn-prev" onclick="nextSlide(-1)"><</button>
+
+        <div class="images">
+          <div class="image-1">
+            <img src="img/img-1.jpg" alt="couple-image" />
+          </div>
+          <div class="image-2">
+            <img src="img/img-2.jpg" alt="bride-image" />
+          </div>
+          <div class="image-3">
+            <img src="img/img-3.jpg" alt="couple-image" />
+          </div>
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)">1</span>
+          <span class="dot" onclick="currentSlide(2)">2</span>
+          <span class="dot" onclick="currentSlide(3)">3</span>
+        </div>
+
+        <button class="btn-next" onclick="nextSlide(1)">></button>
+      </section>
+
+      <section class="message">
+        <div class="message-div">
+          <h1 class="message-heading">Let's Talk</h1>
+          <form class="form">
+            <label for="fullname">Name:</label><br />
+            <input type="text" placeholder="Your name" /><br />
+            <label for="email">Email Address:</label><br />
+            <input type="text" placeholder="Your email-id" /><br />
+            <label for="message">Message:</label><br />
+            <textarea cols="" rows="6" placeholder="Write a message"></textarea
+            ><br />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="message-img">
+          <img src="img/msg-img.jpg" alt="wedding-table" />
+        </div>
+      </section>
+      <footer></footer>
+    </main>
+  </body>
+</html>
